@@ -1,0 +1,39 @@
+{
+  "name": "starchitect/throwing",
+  "type": "library",
+  "description": "PHP library for throwing",
+  "keywords": [
+    "throwable",
+    "exception",
+    "error"
+  ],
+  "homepage": "https://github.com/starchitect/throwing",
+  "license": "Apache License, Version 2.0",
+  "authors": [
+    {
+      "name": "Anton Vorobyev",
+      "email": "anton@vorobyev.co",
+      "homepage": "https://vorobyev.co",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.6|~7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7 || ^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starchitect\\Throwing\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Starchitect\\Throwing\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
