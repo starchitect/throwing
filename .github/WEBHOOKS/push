@@ -1,0 +1,3 @@
+#!/bin/sh
+
+curl -XPOST -H'content-type:application/json' 'https://packagist.org/api/update-package?username=starchitect&apiToken=API_TOKEN' -d'{"repository":{"url":"PACKAGIST_PACKAGE_URL"}}'
